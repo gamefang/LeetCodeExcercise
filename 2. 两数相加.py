@@ -8,6 +8,7 @@ class ListNode:
         self.val = x
         self.next = None
 
+# 此段代码只能在leetcode下通过
 class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
         res_num = Solution.ln_to_int(l1) + Solution.ln_to_int(l2)
